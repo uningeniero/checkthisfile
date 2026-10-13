@@ -8,14 +8,14 @@ Calculate SHA-256, compare exact files, create portable folder manifests and che
 
 ## Install this release
 
-This source prepares version 0.1.4. Download the versioned archive and checksum from [the release page](https://checkthisfile.com/developers/web-publications) and install it locally:
+Install the pinned release from npm:
 
 ```sh
-npm install ./checkthisfile-0.1.4.tgz
+npm install checkthisfile@0.1.4
 ./node_modules/.bin/checkthisfile --help
 ```
 
-The npm registry release 0.1.3 remains available with `npm install checkthisfile@0.1.3`; it does not include the website text entry point. Registry publication of 0.1.4 is separate from preparing this package.
+For a one-off CLI check, use `npx checkthisfile@0.1.4 --help`. You can also download the versioned archive and checksum from [the release page](https://checkthisfile.com/developers/local) and install it with `npm install ./checkthisfile-0.1.4.tgz`. Version 0.1.4 includes the `checkthisfile/web-text` entry point.
 
 The package contains the MIT-licensed source, TypeScript declarations and documentation. Installation may contact npm; operations after installation do not use the network. Pin versions and keep your lockfile. Source and contributions: [GitHub](https://github.com/uningeniero/checkthisfile).
 
